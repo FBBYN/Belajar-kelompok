@@ -1,0 +1,24 @@
+<html>
+<title>Login</title>
+<link rel="icon" href="img/1-512.png">
+<link href="/css/bootstrap.min.css" rel="stylesheet"> 
+<link href="/css/me.css" rel="stylesheet"> 
+<link href="/css/dashboard.css" rel="stylesheet"> 
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<div class="container"> 
+<div class="profile-sidebar"> 
+    <form class="form-signin" name="LoginForm" method="post" action="login.php" onSubmit="return InputCheck(this)">
+    	<div class="profile-userpic">
+			<img src="img/1-512.png" class="img-responsive" alt="">
+		</div>
+		<h1 class="form-signin-heading text-muted" >LOGIN</h1>
+		
+		<input type="text" class="form-control input" id="username" name="username" type="text" placeholder="User Name" required="" autofocus="">
+		<input type="password" class="form-control input" id="password" name="password" type="password" placeholder="Password" required="Nggak boleh kosong">
+		<button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="Login">
+			Sign In
+		</button>
+	</form> 
+	</div>
+</div>
+</html>
